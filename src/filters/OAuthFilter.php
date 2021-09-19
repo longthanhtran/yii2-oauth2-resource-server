@@ -12,7 +12,7 @@ class OAuthFilter extends ActionFilter
 {
     public function beforeAction($action)
     {
-        $publicKeyPath = Yii::$app->params['resource-server']['public-key'];
+        $publicKeyPath = Yii::$app->params['resourceServer']['publicKey'];
 
         $resourceServer = new ResourceServer(
             new AccessTokenRepository(),

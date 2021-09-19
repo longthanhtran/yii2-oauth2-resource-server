@@ -20,9 +20,10 @@ Current support grant to communicate with OAuth2 authz server is
 ...
   'resourceServer' => [
     'authzServerUrl' => 'your-oauth-authz-server-url',
+    'publicKey'      => 'your-public-key-path'
   ],
   'clientCredentials' => [
-    'clientId' => 'your-client-id',
+    'clientId'     => 'your-client-id',
     'clientSecret' => 'your-client-secret',
   ]
 ...
