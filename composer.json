@@ -1,0 +1,32 @@
+{
+    "name": "longthanhtran/yii2-oauth2-resource-server",
+    "description": "OAuth 2.0 Resource Server",
+    "type": "yii2-extension",
+    "keyword": [
+      "yii2",
+      "oauth2",
+      "resource",
+      "extension"
+    ],
+    "require": {
+      "php": ">= 7.4 | 8.0",
+      "yiisoft/yii2": "~2.0.14",
+      "league/oauth-server": "^8.3",
+      "guzzlehttp/guzzle": "^7.3"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "longthanhtran\\oauth2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Long Tran",
+            "email": "long.thanh.tran@gmail.com"
+        }
+    ]
+}
