@@ -7,6 +7,7 @@ use yii\base\ActionFilter;
 use League\OAuth2\Server\ResourceServer;
 use League\OAuth2\Server\Exception\OAuthServerException;
 use Yii;
+use longthanhtran\oauth2\Psr7\ServerRequest;
 
 class OAuthFilter extends ActionFilter
 {
